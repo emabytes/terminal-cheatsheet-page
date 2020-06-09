@@ -6,28 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terminal Cheat Sheet</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro:wght@600;700&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/3b1c75d67e.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
+    <header>
+        <nav>
+            <li> <a href="#"><i class="fas fa-terminal"></a></i></li>
+            <li><a href="#path">Display path</a></li>
+            <li><a href="#change">Change</a></li>
+            <li><a href="#list">List</a></li>
+            <li><a href="#create">Create</a></li>
+            <li><a href="#delete">Delete</a></li>
+            <li><a href="#move">Move</a></li>
+            <li><a href="#copy">Copy</a></li>
+            <li><a href="#clear">Clear</a></li>
+        </nav>
+    </header>
     <main>
-
-        <i class="far fa-sticky-note"></i>
         <h1>Terminal cheat sheet</h1>
-
-        <img src="assets/img/pwd.png" alt="code-image">
+        <img id="path" src="assets/img/pwd.png" alt="code-image">
         <p>
             Display path of current working directory
         </p>
-        <img src="assets/img/cd.png" alt="code-image">
+        <img id="change" src="assets/img/cd.png" alt="code-image">
         <p>Change directory</p>
 
         <img src="assets/img/cd-back.png" alt="code-image">
         <p>Navigate to parent directory</p>
 
-        <img src="assets/img/ls.png" alt="code-image">
+        <img id="list" src="assets/img/ls.png" alt="code-image">
         <p>List directory contents</p>
 
         <img src="assets/img/ls-a.png" alt="code-image">
@@ -36,27 +46,32 @@
         <img src="assets/img/ls-l.png" alt="code-image">
         <p>List directory contents in long format</p>
 
-        <img src="assets/img/mkdir.png" alt="code-image">
+        <img id="create" src="assets/img/mkdir.png" alt="code-image">
         <p>Create new directory</p>
 
         <img src="assets/img/touch.png" alt="code-image">
         <p>Create new file</p>
 
-        <img src="assets/img/rm.png" alt="code-image">
+        <img id="delete" src="assets/img/rm.png" alt="code-image">
         <p>Delete file</p>
 
-        <img src="assets/img/mv.png" alt="code-image">
+        <img id="move" src="assets/img/mv.png" alt="code-image">
         <p>Move file or directory</p>
 
-        <img src="assets/img/cp.png" alt="code-image">
+        <img id="copy" src="assets/img/cp.png" alt="code-image">
         <p>Copy file to directory</p>
 
-        <img src="assets/img/clear.png" alt="code-image">
+        <img id="clear" src="assets/img/clear.png" alt="code-image">
         <p>Clear the command line window</p>
     </main>
 
     <footer>
-        To be continued...
+        <p>Read more about the <a href="https://en.wikipedia.org/wiki/Terminal_emulator">Terminal</a></p>
+        <p>
+            Check out <a
+                href="https://computers.tutsplus.com/tutorials/40-terminal-tips-and-tricks-you-never-thought-you-needed--mac-51192">commands</a>
+            you never thought you needed
+        </p>
     </footer>
 </body>
 
