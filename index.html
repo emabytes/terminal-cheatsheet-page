@@ -14,58 +14,123 @@
 <body>
     <header>
         <nav>
-            <li> <a href="#"><i class="fas fa-terminal"></a></i></li>
-            <li><a href="#path">Display path</a></li>
-            <li><a href="#change">Change</a></li>
-            <li><a href="#list">List</a></li>
-            <li><a href="#create">Create</a></li>
-            <li><a href="#delete">Delete</a></li>
-            <li><a href="#move">Move</a></li>
-            <li><a href="#copy">Copy</a></li>
-            <li><a href="#clear">Clear</a></li>
+            <ul>
+                <li><a class="text-change" href="#dir-commands">Directories/Files Commands</a></li>
+                <li><a href="#path">Display path</a></li>
+                <li><a href="#change">Change</a></li>
+                <li><a href="#list">List</a></li>
+                <li><a href="#create">Create</a></li>
+                <li><a href="#delete">Delete</a></li>
+                <li><a href="#move">Move</a></li>
+                <li><a href="#copy">Copy</a></li>
+                <li><a href="#clear">Clear</a></li>
+                <li><a class="text-change" href="#git-commands">Git Commands</a></li>
+                <li><a href="#init">Initialize</a></li>
+                <li><a href="#add">Add changes</a></li>
+                <li><a href="#status">Show Status</a></li>
+                <li><a href="#commit">Commit change</a></li>
+                <li><a href="#branch">Branches</a></li>
+                <li><a href="#push">Push</a></li>
+                <li><a href="#pull">Pull</a></li>
+                <li><a href="#clone">Clone Code</a></li>
+                <li><a href="#reset">Reset</a></li>
+            </ul>
         </nav>
     </header>
     <main>
+    <a href="#"><i class="fas fa-terminal"></a></i>
         <h1>Terminal cheat sheet</h1>
-        <img id="path" src="assets/img/pwd.png" alt="code-image">
-        <p>
-            Display path of current working directory
-        </p>
-        <img id="change" src="assets/img/cd.png" alt="code-image">
-        <p>Change directory</p>
+        <article>
+            <h2 id="dir-commands">Directories and files</h2>
+            <img id="path" src="assets/img/pwd.png" alt="code-image">
+            <p>
+                Display path of current working directory
+            </p>
+            <img id="change" src="assets/img/cd.png" alt="code-image">
+            <p>Change directory</p>
 
-        <img src="assets/img/cd-back.png" alt="code-image">
-        <p>Navigate to parent directory</p>
+            <img src="assets/img/cd-back.png" alt="code-image">
+            <p>Navigate to parent directory</p>
 
-        <img id="list" src="assets/img/ls.png" alt="code-image">
-        <p>List directory contents</p>
+            <img id="list" src="assets/img/ls.png" alt="code-image">
+            <p>List directory contents</p>
 
-        <img src="assets/img/ls-a.png" alt="code-image">
-        <p>List directory contents, including hidden files</p>
+            <img src="assets/img/ls-a.png" alt="code-image">
+            <p>List directory contents, including hidden files</p>
 
-        <img src="assets/img/ls-l.png" alt="code-image">
-        <p>List directory contents in long format</p>
+            <img src="assets/img/ls-l.png" alt="code-image">
+            <p>List directory contents in long format</p>
 
-        <img id="create" src="assets/img/mkdir.png" alt="code-image">
-        <p>Create new directory</p>
+            <img id="create" src="assets/img/mkdir.png" alt="code-image">
+            <p>Create new directory</p>
 
-        <img src="assets/img/touch.png" alt="code-image">
-        <p>Create new file</p>
+            <img src="assets/img/touch.png" alt="code-image">
+            <p>Create new file</p>
 
-        <img id="delete" src="assets/img/rm.png" alt="code-image">
-        <p>Delete file</p>
+            <img id="delete" src="assets/img/rm.png" alt="code-image">
+            <p>Delete file</p>
 
-        <img id="move" src="assets/img/mv.png" alt="code-image">
-        <p>Move file or directory</p>
+            <img id="move" src="assets/img/mv.png" alt="code-image">
+            <p>Move file or directory</p>
 
-        <img id="copy" src="assets/img/cp.png" alt="code-image">
-        <p>Copy file to directory</p>
+            <img id="copy" src="assets/img/cp.png" alt="code-image">
+            <p>Copy file to directory</p>
 
-        <img id="clear" src="assets/img/clear.png" alt="code-image">
-        <p>Clear the command line window</p>
+            <img id="clear" src="assets/img/clear.png" alt="code-image">
+            <p>Clear the command line window</p>
+        </article>
+
+        <article>
+            <h2 id="git-commands">Git commands</h2>
+            <img id="init" src="assets/img/init.png" alt="code-image">
+            <p>Create a new local repository</p>
+
+            <img id="add" src="assets/img/add.png" alt="code-image">
+            <p>Add all current changes to the next commit</p>
+
+            <img id="status" src="assets/img/status-text.png" alt="code-image">
+            <p>Show status of changed files in your working directory</p>
+
+            <img src="assets/img/diff.png" alt="code-image">
+            <p>Show tracked files changes</p>
+
+            <img src="assets/img/log.png" alt="code-image">
+            <p>Show changes over time condensed to a single line and with all of the references</p>
+
+            <img id="commit" src="assets/img/commit.png" alt="code-image">
+            <p>Commit changes and add a message</p>
+
+            <img id="branch" src="assets/img/branch.png" alt="code-image">
+            <p>Create a new branch</p>
+
+            <img src="assets/img/checkout.png" alt="code-image">
+            <p>Switch branches</p>
+
+            <img src="assets/img/branch-a.png" alt="code-image">
+            <p>Show existing branches</p>
+
+            <img src="assets/img/branch-delete.png" alt="code-image">
+            <p>Delete a branch</p>
+
+            <img src="assets/img/merge-long.png" alt="code-image">
+            <p>Merge branches</p>
+
+            <img id="push" src="assets/img/push.png" alt="code-image">
+            <p>Push local changes to the remote</p>
+
+            <img id="pull" src="assets/img/pull.png" alt="code-image">
+            <p>Update local repository to the newest commit</p>
+
+            <img id="clone" src="assets/img/clone.png" alt="code-image">
+            <p>Download from an existing repository</p>
+
+            <img id="reset" src="assets/img/reset-hard.png" alt="code-image">
+            <p>Discard all local changes in your working directory</p>
+        </article>
     </main>
 
     <footer>
+        <p> Read more about <a href="  https://git-scm.com/">Git</a></p>
         <p>Read more about the <a href="https://en.wikipedia.org/wiki/Terminal_emulator">Terminal</a></p>
         <p>
             Check out <a
